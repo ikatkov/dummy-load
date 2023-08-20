@@ -10,14 +10,14 @@
             "includePath": [
                 "/Users/ikatkov/non-work-projects/dummy-load/firmware/include",
                 "/Users/ikatkov/non-work-projects/dummy-load/firmware/src",
-                "/Users/ikatkov/non-work-projects/dummy-load/firmware/.pio/libdeps/pro16MHzatmega328/TM1637",
+                "/Users/ikatkov/non-work-projects/dummy-load/firmware/.pio/libdeps/pro16MHzatmega328/LiquidCrystal_I2C",
                 "/Users/ikatkov/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "/Users/ikatkov/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                 "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -25,14 +25,14 @@
                 "path": [
                     "/Users/ikatkov/non-work-projects/dummy-load/firmware/include",
                     "/Users/ikatkov/non-work-projects/dummy-load/firmware/src",
-                    "/Users/ikatkov/non-work-projects/dummy-load/firmware/.pio/libdeps/pro16MHzatmega328/TM1637",
+                    "/Users/ikatkov/non-work-projects/dummy-load/firmware/.pio/libdeps/pro16MHzatmega328/LiquidCrystal_I2C",
                     "/Users/ikatkov/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "/Users/ikatkov/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                     "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
             },
