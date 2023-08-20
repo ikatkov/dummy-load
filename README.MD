@@ -14,3 +14,8 @@ Current measurement can be done by arduino
 use ina180 high side current sense IC, x20 multiplication
 3V max on ADC imput
 1 LSB ~ 2.9mA
+
+## Aug 20, 2023
+Tested temperature measurement circuit on the breadboard
+PTC + LM324 opmamp that does voltage shifting and x10 scaling
+it looks like two 7segments displays is not enough, decided to go use-up one of these large LCD displays I have left.
