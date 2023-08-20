@@ -1,0 +1,13 @@
+* Z:\non-work-projects\dummy-load\ltspice\TL431ref1.asc
+V1 N001 0 PWL(0 6 1 12)
+XU1 0 vref N002 TL431
+R1 N001 vref 470
+R2 N002 0 3.32k
+R3 vref N002 2.74k
+R4 vref 0 4k
+.tran 0 10 0
+.include tl431.lib
+* 4.55V
+* ~10mA available
+.backanno
+.end

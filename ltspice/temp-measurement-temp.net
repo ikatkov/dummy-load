@@ -1,0 +1,18 @@
+* Z:\non-work-projects\dummy-load\ltspice\temp-measurement-temp.asc
+V2 v-ref 0 4.55
+XU2 N004 N002 vcc 0 volt-divider-scaled LM358
+R6 volt-divider-scaled N002 51k
+R7 N004 N003 4.7k
+R8 N002 N001 4.7k
+R9 0 N004 51k
+V1 tempV 0 2.275
+V3 vcc 0 7
+XU3 tempV N003 vcc 0 N003 LM358
+R12 N001 0 10k
+R13 v-ref N001 10k
+.tran 10m
+.lib LM358.lib
+* ~2.275V
+* 2.09V ~0C\n2.90V ~120C
+.backanno
+.end

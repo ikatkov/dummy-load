@@ -1,0 +1,29 @@
+* Z:\non-work-projects\dummy-load\ltspice\fan2.asc
+V2 vcc5 0 5
+XU1 N002 real-temp vcc5 0 out LM393
+R2 N002 temp-ref 1k
+R4 out N002 33k
+V1 temp-ref 0 2.45
+R5 vcc5 out 10k
+R_FAN raw N001 40
+D1 N001 raw D
+M1 N001 N003 0 0 2N7002
+V3 v-ref 0 4.55
+V4 raw 0 7
+V5 real-temp 0 PWL(0 2 1 3 2 2)
+Q1 N003 out 0 0 2N2222
+R1 vcc5 N003 10k
+.model D D
+.lib C:\Users\Igor\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Igor\AppData\Local\LTspice\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Igor\AppData\Local\LTspice\lib\cmp\standard.mos
+.tran 2
+.lib LM393.lib
+* 2.09V ~0C\n2.90V ~120C
+* 2.38V ~40C\n2.52V ~60C
+.backanno
+.end

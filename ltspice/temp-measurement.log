@@ -1,0 +1,177 @@
+Circuit: * Z:\non-work-projects\dummy-load\ltspice\temp-measurement.asc
+
+WARNING: Less than two connections to node 2v.  This node is used by v1.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 0.000140217
+vernier = 0.166667
+vernier = 0.222222
+Gmin = 9.04943e-05
+vernier = 0.296296
+vernier = 0.395061
+Gmin = 4.56108e-05
+vernier = 0.526748
+Gmin = 1.5343e-05
+vernier = 0.702331
+vernier = 0.936441
+Gmin = 2.73277e-06
+vernier = 1
+Gmin = 3.0491e-07
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 3.0491e-07
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source Step = 87.8995%
+Source Step = 87.9291%
+Source Step = 87.9587%
+Source Step = 87.9883%
+Source Step = 88.0179%
+Source Step = 88.0475%
+vernier = 0.00146484
+Source Step = 88.0919%
+Source Step = 88.1362%
+Source Step = 88.1806%
+Source Step = 88.225%
+Source Step = 88.2694%
+vernier = 0.00219727
+Source Step = 88.3338%
+Source Step = 88.4004%
+Source Step = 88.4669%
+Source Step = 88.5335%
+Source Step = 88.6001%
+vernier = 0.0032959
+Source Step = 88.6933%
+Source Step = 88.7932%
+Source Step = 88.8931%
+Source Step = 88.993%
+Source Step = 89.0928%
+vernier = 0.00494385
+Source Step = 89.2277%
+Source Step = 89.3775%
+Source Step = 89.5273%
+Source Step = 89.6771%
+Source Step = 89.8269%
+vernier = 0.00741577
+Source Step = 90.0217%
+Source Step = 90.1397%
+Source Step = 90.1958%
+Source Step = 90.252%
+Source Step = 90.3082%
+Source Step = 90.3644%
+Source Step = 90.4206%
+Source Step = 90.4767%
+Source Step = 90.5329%
+Source Step = 90.5891%
+Source Step = 90.6453%
+Source Step = 90.7015%
+Source Step = 90.7576%
+Source Step = 90.8138%
+Source Step = 90.87%
+Source Step = 90.9262%
+Source Step = 90.9824%
+Source Step = 91.0385%
+Source Step = 91.0947%
+Source Step = 91.1509%
+Source Step = 91.2071%
+Source Step = 91.2633%
+Source Step = 91.3194%
+Source Step = 91.3756%
+Source Step = 91.4318%
+Source Step = 91.488%
+Source Step = 91.5442%
+Source Step = 91.6003%
+Source Step = 91.6565%
+Source Step = 91.7127%
+Source Step = 91.7689%
+Source Step = 91.8251%
+Source Step = 91.8812%
+Source Step = 91.9374%
+Source Step = 91.9936%
+Source Step = 92.0498%
+Source Step = 92.106%
+Source Step = 92.1621%
+Source Step = 92.2183%
+Source Step = 92.2745%
+Source Step = 92.3307%
+Source Step = 92.3869%
+Source Step = 92.443%
+Source Step = 92.4992%
+Source Step = 92.5554%
+Source Step = 92.6116%
+Source Step = 92.6678%
+Source Step = 92.7239%
+Source Step = 92.7801%
+Source Step = 92.8363%
+Source Step = 92.8925%
+Source Step = 92.9487%
+Source Step = 93.0048%
+Source Step = 93.061%
+Source Step = 93.1172%
+Source Step = 93.1734%
+Source Step = 93.2296%
+Source Step = 93.2857%
+Source Step = 93.3419%
+Source Step = 93.3981%
+Source Step = 93.4543%
+Source Step = 93.5105%
+Source Step = 93.5666%
+Source Step = 93.6228%
+Source Step = 93.679%
+Source Step = 93.7352%
+Source Step = 93.7914%
+Source Step = 93.8475%
+Source Step = 93.9037%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 1.36665 s.
+
+Date: Sun Aug 20 09:22:34 2023
+Total elapsed time: 15.316 seconds.
+
+tnom = 27
+temp = 121
+method = trap
+totiter = 54614
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 51
+matrix size = 274
+fillins = 529
+solver = Normal
+Avg thread counts: 1.0/2.0/1.1/1.0
+Matrix Compiler1:    2558 opcodes  7.1/5.8/[1.8]
+Matrix Compiler2: 31.38 KB object code size  5.1/5.7/[1.7]
+
