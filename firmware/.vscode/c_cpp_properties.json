@@ -10,7 +10,6 @@
             "includePath": [
                 "/Users/ikatkov/non-work-projects/dummy-load/firmware/include",
                 "/Users/ikatkov/non-work-projects/dummy-load/firmware/src",
-                "/Users/ikatkov/non-work-projects/dummy-load/firmware/lib/SevenSegmentTM1637/src",
                 "/Users/ikatkov/non-work-projects/dummy-load/firmware/lib/MCP4725",
                 "/Users/ikatkov/non-work-projects/dummy-load/firmware/lib/ADS1X15",
                 "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
@@ -28,7 +27,6 @@
                 "path": [
                     "/Users/ikatkov/non-work-projects/dummy-load/firmware/include",
                     "/Users/ikatkov/non-work-projects/dummy-load/firmware/src",
-                    "/Users/ikatkov/non-work-projects/dummy-load/firmware/lib/SevenSegmentTM1637/src",
                     "/Users/ikatkov/non-work-projects/dummy-load/firmware/lib/MCP4725",
                     "/Users/ikatkov/non-work-projects/dummy-load/firmware/lib/ADS1X15",
                     "/Users/ikatkov/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
