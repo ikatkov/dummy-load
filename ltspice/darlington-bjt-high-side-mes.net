@@ -1,0 +1,45 @@
+* \\vmware-host\Shared Folders\non-work-projects\dummy-load\ltspice\darlington-bjt-high-side-mes.asc
+V1 RAW 0 60
+V3 VCC 0 12
+R3 N013 0 1
+V2 -VCC 0 0
+V5 ref 0 2.4
+L1 N001 N002 3µ
+R1 neg N013 1k
+C2 N011 0 2.2µ
+R5 N006 N011 3.3
+C1 N008 N007 220p
+R2 N012 N013 47
+Q3 N006 N010 N012 0 2SC5866
+Q1 N006 N012 N013 0 2SCR583D3
+R4 N002 N003 0.1
+R6 N008 N010 10k
+V6 vOffset 0 8
+V7 N001 0 PULSE(0 30 15m 40u 40u 10m 1000)
+V8 V1 0 0.2
+XU2 pos neg VCC -VCC N008 TL082
+V9 pos ref 10m
+R7 N007 neg 1
+R8 N013 VCC 1k
+R9 N003 N006 0.215
+XU1 N006 N004 N003 N009 N005 TLV9102
+R10 N009 0 10k
+D1 N009 N003 UMZ5_1N
+M1 sense N005 N003 N003 PMOS
+R11 N004 N003 100
+R12 sense 0 100
+.model D D
+.lib C:\Users\Igor\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Igor\AppData\Local\LTspice\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Igor\AppData\Local\LTspice\lib\cmp\standard.mos
+.inc LM358.LIB
+.tran 30m
+.inc TL082.LIB
+* on power on\nwhen ref=0\noffsets opAmp down
+.inc TLV9102.LIB
+.backanno
+.end

@@ -1,0 +1,136 @@
+Circuit: * Z:\non-work-projects\dummy-load\ltspice\TL431-high-current.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+Gmin = 0.000223007
+vernier = 0.25
+vernier = 0.333333
+Gmin = 0.000124738
+vernier = 0.444444
+Gmin = 4.81288e-05
+vernier = 0.592592
+vernier = 0.790123
+Gmin = 1.02158e-05
+vernier = 1
+Gmin = 1.19514e-06
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 3.13298e-07
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source Step = 89.7727%
+Source Step = 89.9799%
+Source Step = 90.0095%
+Source Step = 90.0391%
+Source Step = 90.0687%
+Source Step = 90.0982%
+Source Step = 90.1278%
+Source Step = 90.1574%
+Source Step = 90.187%
+Source Step = 90.2166%
+Source Step = 90.2462%
+Source Step = 90.2758%
+Source Step = 90.3054%
+Source Step = 90.335%
+Source Step = 90.3646%
+Source Step = 90.3942%
+Source Step = 90.4238%
+Source Step = 90.4534%
+Source Step = 90.483%
+Source Step = 90.5125%
+Source Step = 90.5421%
+Source Step = 90.5717%
+Source Step = 90.6013%
+vernier = 0.00146484
+Source Step = 90.6413%
+Source Step = 90.6857%
+Source Step = 90.7301%
+Source Step = 90.7744%
+Source Step = 90.8188%
+vernier = 0.00219727
+Source Step = 90.8765%
+Source Step = 90.9431%
+Source Step = 91.0097%
+Source Step = 91.0763%
+Source Step = 91.1429%
+vernier = 0.0032959
+Source Step = 91.2261%
+Source Step = 91.326%
+Source Step = 91.4259%
+Source Step = 91.5257%
+Source Step = 91.6256%
+vernier = 0.00494385
+Source Step = 91.7455%
+Source Step = 91.8953%
+Source Step = 92.0451%
+Source Step = 92.1949%
+Source Step = 92.3447%
+vernier = 0.00741577
+Source Step = 92.517%
+Source Step = 92.7417%
+Source Step = 92.9664%
+Source Step = 93.1912%
+Source Step = 93.4159%
+vernier = 0.0111237
+Source Step = 93.6631%
+Source Step = 94.0002%
+Source Step = 94.3372%
+Source Step = 94.6743%
+Source Step = 95.0114%
+vernier = 0.0166855
+Source Step = 95.3653%
+Source Step = 95.8709%
+Source Step = 96.3766%
+Source Step = 96.8822%
+Source Step = 97.3878%
+Source Step = 97.8934%
+vernier = 0.0250282
+Source Step = 98.6519%
+Source Step = 99.4103%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Wed Aug 23 11:33:40 2023
+Total elapsed time: 3.821 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 17454
+traniter = 2102
+tranpoints = 1052
+accept = 1052
+rejected = 0
+matrix size = 157
+fillins = 268
+solver = Normal
+Avg thread counts: 1.1/1.2/1.2/1.1
+Matrix Compiler1: 22.89 KB object code size  4.2/3.9/[1.2]
+Matrix Compiler2: 17.16 KB object code size  3.7/13.4/[1.9]
+

@@ -1,0 +1,170 @@
+Circuit: * \\vmware-host\Shared Folders\non-work-projects\dummy-load\ltspice\darlington-bjt-high-side-mes.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Less than two connections to node raw.  This node is used by v1.
+WARNING: Less than two connections to node voffset.  This node is used by v6.
+WARNING: Less than two connections to node v1.  This node is used by v8.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 7.57576%
+Source Step = 15.1515%
+Source Step = 22.7273%
+Source Step = 30.303%
+Source Step = 37.8788%
+vernier = 0.375
+Source Step = 40.9224%
+Source Step = 40.9668%
+Source Step = 41.0112%
+Source Step = 41.0556%
+Source Step = 41.1%
+Source Step = 41.1444%
+vernier = 0.00219727
+Source Step = 41.2109%
+Source Step = 41.2775%
+Source Step = 41.3441%
+Source Step = 41.4107%
+Source Step = 41.4773%
+vernier = 0.0032959
+Source Step = 41.5738%
+Source Step = 41.6737%
+Source Step = 41.7736%
+Source Step = 41.8734%
+Source Step = 41.9733%
+vernier = 0.00494385
+Source Step = 42.1131%
+Source Step = 42.263%
+Source Step = 42.4128%
+Source Step = 42.5626%
+Source Step = 42.7124%
+vernier = 0.00741577
+Source Step = 42.9147%
+Source Step = 43.1394%
+Source Step = 43.3641%
+Source Step = 43.5888%
+Source Step = 43.8135%
+Source Step = 43.8809%
+Source Step = 43.9371%
+Source Step = 43.9933%
+Source Step = 44.0495%
+Source Step = 44.1057%
+vernier = 0.00278091
+Source Step = 44.1731%
+Source Step = 44.2574%
+Source Step = 44.3416%
+Source Step = 44.4259%
+Source Step = 44.5102%
+vernier = 0.00417137
+Source Step = 44.6071%
+Source Step = 44.7335%
+Source Step = 44.8599%
+Source Step = 44.9863%
+Source Step = 45.1127%
+vernier = 0.00625706
+Source Step = 45.2517%
+Source Step = 45.4414%
+Source Step = 45.631%
+Source Step = 45.8206%
+Source Step = 46.0102%
+vernier = 0.00938559
+Source Step = 46.2093%
+Source Step = 46.4937%
+Source Step = 46.7781%
+Source Step = 47.0625%
+Source Step = 47.3469%
+Source Step = 47.6313%
+vernier = 0.0140784
+Source Step = 48.0579%
+Source Step = 48.4846%
+Source Step = 48.9112%
+Source Step = 49.3378%
+Source Step = 49.7644%
+vernier = 0.0211176
+Source Step = 50.383%
+Source Step = 51.0229%
+Source Step = 51.6629%
+Source Step = 52.3028%
+Source Step = 52.9427%
+vernier = 0.0316764
+Source Step = 53.8386%
+Source Step = 54.7985%
+Source Step = 55.7584%
+Source Step = 56.7183%
+Source Step = 57.6782%
+vernier = 0.0475145
+Source Step = 58.974%
+Source Step = 60.4138%
+Source Step = 61.8537%
+Source Step = 63.2935%
+Source Step = 64.7334%
+vernier = 0.0712718
+Source Step = 66.6051%
+Source Step = 68.7649%
+Source Step = 70.9246%
+Source Step = 73.0844%
+Source Step = 75.2441%
+vernier = 0.106908
+Source Step = 77.9438%
+Source Step = 81.1835%
+Source Step = 84.4231%
+Source Step = 87.6627%
+Source Step = 90.3354%
+vernier = 0.00668173
+Source Step = 90.3303%
+Source Step = 90.381%
+Source Step = 90.4316%
+Source Step = 90.4822%
+Source Step = 90.5328%
+Source Step = 90.5834%
+Source Step = 90.6341%
+Source Step = 90.6847%
+Source Step = 90.7353%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 28.0303%
+Source Step = 35.6061%
+Source Step = 43.1818%
+Source Step = 50.7576%
+Source Step = 58.3333%
+Source Step = 61.2689%
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 9.69219 µs.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 2.92969e-08
+Changing Tseed to 2.92969e-10
+Changing Tseed to 2.92969e-07
+Changing Tseed to 2.92969e-11
+Changing Tseed to 2.92969e-06
+Changing Tseed to 2.92969e-12
+Changing Tseed to 2.92969e-05
+Changing Tseed to 2.92969e-13
+Changing Tseed to 0.000292969
+Changing Tseed to 2.92969e-14
+Changing Tseed to 0.00292969
+Changing Tseed to 2.92969e-15
+Fatal Error: Analysis:  Time step too small; initial timepoint: trouble with u1:s_vswitch_8-instance s:u1:7
+

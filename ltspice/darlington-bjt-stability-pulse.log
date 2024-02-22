@@ -1,0 +1,67 @@
+Circuit: * \\vmware-host\Shared Folders\non-work-projects\dummy-load\ltspice\darlington-bjt-stability-pulse.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Less than two connections to node raw.  This node is used by v1.
+WARNING: Less than two connections to node voffset.  This node is used by v6.
+WARNING: Less than two connections to node v1.  This node is used by v8.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+Gmin = 0.000247786
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.000246585
+vernier = 0.0833333
+vernier = 0.111111
+Gmin = 0.000197609
+vernier = 0.148148
+vernier = 0.197531
+Gmin = 0.000139447
+vernier = 0.263374
+Gmin = 7.9666e-05
+vernier = 0.351165
+vernier = 0.46822
+Gmin = 3.23655e-05
+vernier = 0.624294
+vernier = 0.832392
+Gmin = 8.05089e-06
+vernier = 1
+Gmin = 1.02514e-06
+Gmin = 1.10074e-07
+Gmin = 1.18191e-08
+Gmin = 1.26906e-09
+Gmin = 1.36264e-10
+Gmin = 1.46313e-11
+Gmin = 1.57102e-12
+Gmin = 1.68687e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Sun Feb 18 11:06:44 2024
+Total elapsed time: 0.550 seconds.
+
+tnom = 27
+temp = 27
+method = Gear
+totiter = 4817
+traniter = 3822
+tranpoints = 1652
+accept = 1502
+rejected = 150
+matrix size = 163
+fillins = 223
+solver = Normal
+Avg thread counts: 1.1/1.1/1.1/1.1
+Matrix Compiler1: 20.85 KB object code size  3.7/2.6/[1.1]
+Matrix Compiler2: 16.74 KB object code size  3.4/4.2/[2.2]
+

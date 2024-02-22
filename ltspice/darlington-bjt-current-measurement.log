@@ -1,0 +1,87 @@
+Circuit: * Z:\non-work-projects\dummy-load\ltspice\darlington-bjt-current-measurement.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.000130259
+vernier = 0.03125
+vernier = 0.0416667
+Gmin = 0.00012083
+vernier = 0.0555555
+Gmin = 0.000106716
+vernier = 0.074074
+vernier = 0.0987653
+Gmin = 8.67049e-05
+vernier = 0.131687
+vernier = 0.175583
+Gmin = 6.23934e-05
+vernier = 0.23411
+Gmin = 3.73506e-05
+vernier = 0.312147
+vernier = 0.416196
+Gmin = 1.60156e-05
+vernier = 0.554928
+vernier = 0.739903
+Gmin = 4.29159e-06
+vernier = 0.986537
+Gmin = 5.7989e-07
+vernier = 1
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 2.96904e-07
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source Step = 87.8995%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 14.5198 µs.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 9.76563e-11
+Changing Tseed to 9.76562e-13
+Changing Tseed to 9.76562e-10
+Changing Tseed to 9.76563e-14
+Changing Tseed to 9.76562e-09
+Changing Tseed to 9.76562e-15
+Changing Tseed to 9.76562e-08
+Changing Tseed to 9.76562e-16
+Changing Tseed to 9.76563e-07
+Changing Tseed to 9.76562e-17
+Changing Tseed to 9.76562e-06
+Changing Tseed to 9.76562e-18
+Fatal Error: Analysis:  Time step too small; initial timepoint: trouble with node "u1:i_nn:7"
+

@@ -1,0 +1,78 @@
+Circuit: * Z:\non-work-projects\dummy-load\ltspice\dual-darlington-bjt-stability-pulse.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 6.87765e-05
+vernier = 0.166667
+Gmin = 4.80814e-05
+vernier = 0.222222
+vernier = 0.296296
+Gmin = 2.69314e-05
+vernier = 0.395061
+vernier = 0.526748
+Gmin = 1.09144e-05
+vernier = 0.702331
+Gmin = 2.6188e-06
+vernier = 0.936441
+vernier = 1
+Gmin = 3.22846e-07
+Gmin = 3.46653e-08
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 2.11775e-08
+vernier = 0.0833333
+vernier = 0.111111
+Gmin = 1.71744e-08
+vernier = 0.148148
+Gmin = 1.23742e-08
+vernier = 0.197531
+vernier = 0.263374
+Gmin = 7.18028e-09
+vernier = 0.351165
+vernier = 0.46822
+Gmin = 3.05725e-09
+vernier = 0.624294
+Gmin = 8.22471e-10
+vernier = 0.832392
+vernier = 1
+Gmin = 1.0836e-10
+Gmin = 1.1635e-11
+Gmin = 1.2493e-12
+Gmin = 1.34143e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Sun Aug 20 23:59:22 2023
+Total elapsed time: 0.886 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3541
+traniter = 2246
+tranpoints = 1087
+accept = 1072
+rejected = 15
+matrix size = 296
+fillins = 478
+solver = Normal
+Avg thread counts: 1.1/1.2/1.2/1.1
+Matrix Compiler1: 43.71 KB object code size  9.0/5.6/[2.8]
+Matrix Compiler2: 32.68 KB object code size  4.8/7.8/[4.6]
+

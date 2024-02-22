@@ -1,0 +1,50 @@
+Circuit: * Z:\non-work-projects\dc-amp-voltmeter\ltspice\mosfet-stability-sample.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+Gmin = 0.000247786
+vernier = 0.25
+vernier = 0.333333
+Gmin = 0.000149464
+vernier = 0.444444
+vernier = 0.592592
+Gmin = 5.13419e-05
+vernier = 0.790123
+Gmin = 1.00175e-05
+vernier = 1
+Gmin = 1.07562e-06
+Gmin = 1.15494e-07
+Gmin = 1.24011e-08
+Gmin = 1.33156e-09
+Gmin = 1.42975e-10
+Gmin = 1.53518e-11
+Gmin = 1.64839e-12
+Gmin = 1.76994e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Wed Aug  2 10:47:37 2023
+Total elapsed time: 0.598 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4613
+traniter = 3887
+tranpoints = 1419
+accept = 1308
+rejected = 111
+matrix size = 150
+fillins = 225
+solver = Normal
+Avg thread counts: 1.1/1.2/1.2/1.1
+Matrix Compiler1: 20.07 KB object code size  4.8/2.5/[1.4]
+Matrix Compiler2: 16.06 KB object code size  2.7/3.8/[1.4]
+
